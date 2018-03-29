@@ -9,10 +9,14 @@
 
     <StackPanel x:ConnectionId='1' x:Name="stackpanel" Background="Pink" Padding="30">
 
+        <ToggleSwitch x:ConnectionId='2' x:Name="toggleSwitch" Header="LocalNews" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
+                                            />
+        <TextBox x:ConnectionId='3' x:Name="Search"/>
+        
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="250"/>
+                <RowDefinition Height="250"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -21,38 +25,38 @@
             <Grid   Background="Gray">
                 <Image  Stretch="Fill" Opacity="0.60">
                     <Image.Source>
-                        <BitmapImage x:ConnectionId='10' x:Name="urlImage1" />
+                        <BitmapImage x:ConnectionId='12' x:Name="urlImage1" />
                     </Image.Source>
                 </Image>
-                <TextBlock x:ConnectionId='9' x:Name="url1"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                <TextBlock x:ConnectionId='11' x:Name="url1"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
             </Grid>
             <Grid Grid.Column="2"  Background="Gray">
                 <Image Stretch="Fill" Opacity="0.60">
                     <Image.Source>
-                        <BitmapImage x:ConnectionId='8' x:Name="urlImage2"/>
+                        <BitmapImage x:ConnectionId='10' x:Name="urlImage2"/>
                     </Image.Source>
                 </Image>
-                <TextBlock x:ConnectionId='7' x:Name="url2"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                <TextBlock x:ConnectionId='9' x:Name="url2"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
             </Grid>
             <Grid Grid.Row="1"  Background="Gray">
                 <Image Stretch="Fill" Opacity="0.60">
                     <Image.Source>
-                        <BitmapImage x:ConnectionId='6' x:Name="urlImage3"/>
+                        <BitmapImage x:ConnectionId='8' x:Name="urlImage3"/>
                     </Image.Source>
                 </Image>
-                <TextBlock x:ConnectionId='5' x:Name="url3"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                <TextBlock x:ConnectionId='7' x:Name="url3"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
             </Grid>
             <Grid Grid.Row="1" Grid.Column="1"  Background="Gray">
                 <Image Stretch="Fill" Opacity="0.60">
                     <Image.Source>
-                        <BitmapImage x:ConnectionId='4' x:Name="urlImage4"/>
+                        <BitmapImage x:ConnectionId='6' x:Name="urlImage4"/>
                     </Image.Source>
                 </Image>
-                <TextBlock x:ConnectionId='3' x:Name="url4"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                <TextBlock x:ConnectionId='5' x:Name="url4"                                        Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
             </Grid>
         </Grid>
 
-        <TextBlock x:ConnectionId='2' x:Name="textblock"/>
+        <TextBlock x:ConnectionId='4' x:Name="textblock"/>
 
     </StackPanel>
 </Page>

@@ -12,12 +12,24 @@ namespace LifeOrganiserApp
 {
     class NewsProxy
     {
-        public async static Task<RootObject> GetNews()
+        private static HttpResponseMessage response;
+
+        public async static Task<RootObject> GetNews(bool b)
         {
             var http = new HttpClient();
-            var response = await http.GetAsync("https://newsapi.org/v2/top-headlines?" +
-          //"country=us&" +
-          "apiKey=96eea05140b246f5beb991ced70bfe8c");
+            
+
+            if (b == true)
+            {
+                 response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                  GetLocation() +
+                  "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+            }
+            else
+            {
+                 response = await http.GetAsync("https://newsapi.org/v2/everything?q=asd&apiKey=96eea05140b246f5beb991ced70bfe8c");
+            }
+            
 
             var result = await response.Content.ReadAsStringAsync();
 
@@ -26,6 +38,14 @@ namespace LifeOrganiserApp
             var data = (RootObject)serializer.ReadObject(ms);
 
             return data;
+        }
+
+        private static String GetLocation()
+        {
+            var geographicRegion = new Windows.Globalization.GeographicRegion();
+            var code = geographicRegion.CodeTwoLetter;
+
+            return code;
         }
     }
     [DataContract]

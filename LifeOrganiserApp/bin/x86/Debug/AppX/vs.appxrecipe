@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\UWP Assignment App\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T16:37:26.564</Modified>
+      <Modified>2018-03-29T17:24:48.252</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\UWP Assignment App\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.exe">
       <PackagePath>entrypoint\LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-03-29T16:37:26.307</Modified>
+      <Modified>2018-03-29T17:24:47.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\G00330435\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UWP Assignment App\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.xr.xml">
       <PackagePath>LifeOrganiserApp.xr.xml</PackagePath>
-      <Modified>2018-03-29T16:35:42.872</Modified>
+      <Modified>2018-03-29T17:24:47.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -504,11 +504,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UWP Assignment App\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-03-29T16:35:43.529</Modified>
+      <Modified>2018-03-29T17:24:48.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UWP Assignment App\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\LifeOrganiserApp.exe">
       <PackagePath>LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-03-29T16:37:26.561</Modified>
+      <Modified>2018-03-29T17:24:48.249</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

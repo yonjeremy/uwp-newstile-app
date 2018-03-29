@@ -9,10 +9,14 @@
 
     <StackPanel x:Name="stackpanel" Background="Pink" Padding="30">
 
+        <ToggleSwitch x:Name="toggleSwitch" Header="LocalNews" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
+              Toggled="ToggleSwitch_Toggled"/>
+        <TextBox x:Name="Search"/>
+        
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="250"/>
+                <RowDefinition Height="250"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>

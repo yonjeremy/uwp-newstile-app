@@ -31,13 +31,13 @@ namespace LifeOrganiserApp
         public MainPage()
         {
             this.InitializeComponent();
-            GetNews();
-            GetLocation();
+            GetNews(false);
+           
         }
 
-        private async void GetNews()
+        private async void GetNews(bool b)
         {
-            myNews = await NewsProxy.GetNews();
+            myNews = await NewsProxy.GetNews(b);
 
             //ResultTextBlock.Text = myNews.status.ToString() + " " + myNews.totalResults + " " + myNews.articles[1].url;
 
@@ -81,12 +81,22 @@ namespace LifeOrganiserApp
             var success = await Windows.System.Launcher.LaunchUriAsync(uri);
         }
 
-        private void GetLocation()
-        {
-            var geographicRegion = new Windows.Globalization.GeographicRegion();
-            var code = geographicRegion.CodeTwoLetter;
 
-            textblock.Text = code;
+  
+        private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    GetNews(true);
+                }
+                else
+                {
+                    GetNews(false);
+                }
+            }
         }
     }
 }
