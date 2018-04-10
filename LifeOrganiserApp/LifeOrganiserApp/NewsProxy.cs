@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using System.Runtime.Serialization.Json;
 using System.Runtime.Serialization;
 using System.IO;
+using System.Text.RegularExpressions;
+using System.Diagnostics;
+
 
 namespace LifeOrganiserApp
 {
@@ -14,23 +17,88 @@ namespace LifeOrganiserApp
     {
         private static HttpResponseMessage response;
 
-        public async static Task<RootObject> GetNews(bool b)
+        public async static Task<RootObject> GetNews(bool local,int category)
         {
             var http = new HttpClient();
             
+            if (category == 1)
+            {
+                if (local == true)
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     GetLocation() +
+                     "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
+                else
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     "us" +
+                     "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
+            }
 
-            if (b == true)
+            else if (category == 2)
             {
-                 response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
-                  GetLocation() +
-                  "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                if (local == true)
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     GetLocation() +
+                     "&category=sports&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
+                else
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     "us" +
+                     "&category=sports&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
             }
-            else
+            else if (category == 3)
             {
-                 response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
-                  "us" +
-                  "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                if (local == true)
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     GetLocation() +
+                     "&category=business&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
+                else
+                {
+                    response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" +
+                     "us" +
+                     "&category=business&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                }
             }
+
+
+            var result = await response.Content.ReadAsStringAsync();
+
+            var serializer = new DataContractJsonSerializer(typeof(RootObject));
+            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+            var data = (RootObject)serializer.ReadObject(ms);
+
+            return data;
+        }
+
+        public async static Task<RootObject> SearchNews(String category, String keywords)
+        {
+            
+
+            var fixedInput = Regex.Replace(keywords, "[^a-zA-Z0-9% ._]", string.Empty);
+            var splitted = fixedInput.Split(' ');
+
+            keywords = "";
+
+            foreach (string s in splitted)
+            {
+                keywords = keywords + "&q=" + s;
+            }
+            Debug.WriteLine(keywords);
+            var http = new HttpClient();
+
+            response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=us" +
+                     keywords +
+                     "&category=" +
+                     category + "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+
             
 
             var result = await response.Content.ReadAsStringAsync();

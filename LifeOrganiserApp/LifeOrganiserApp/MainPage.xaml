@@ -7,95 +7,351 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     
     mc:Ignorable="d">
+    <Pivot x:Name="rootPivot" Title="News Grid" Background="#274f91" Foreground="White" >
+        <Pivot.TitleTemplate>
+            <DataTemplate>
+                <Grid>
+                    <TextBlock  Text="{Binding}" FontFamily="Segoe UI Light" FontSize="24" />
+                </Grid>
+            </DataTemplate>
+        </Pivot.TitleTemplate>
+        <Pivot.HeaderTemplate>
+            <DataTemplate>
+                <Grid>
+                    <TextBlock Text="{Binding}" Foreground="White" />
+                </Grid>
+            </DataTemplate>
+        </Pivot.HeaderTemplate>
+        <PivotItem Header="Top News" >
+            <ScrollViewer>
+                <StackPanel x:Name="stackpanel" Background="#274f91" Padding="30">
+                    <Grid BorderBrush="black" BorderThickness="2">
+                     
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image  Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage1" />
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url1" PointerPressed="Image_PointerPressed1" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage2"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url2" PointerPressed="Image_PointerPressed2" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage3"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url3" PointerPressed="Image_PointerPressed3" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="1" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage4"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url4" PointerPressed="Image_PointerPressed4" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="2"   Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage5"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url5" PointerPressed="Image_PointerPressed5" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="2" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage6"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url6" PointerPressed="Image_PointerPressed6" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="3"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage7"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url7" PointerPressed="Image_PointerPressed7" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="3" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage8"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url8" PointerPressed="Image_PointerPressed8" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                    </Grid>
 
-    <ScrollViewer>
-        <StackPanel x:Name="stackpanel" Background="DarkBlue" Padding="30">
 
-        <ToggleSwitch x:Name="toggleSwitch" Header="LocalNews" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
-              Toggled="ToggleSwitch_Toggled"/>
-        <TextBox x:Name="Search"/>
+                </StackPanel>
+            </ScrollViewer>
+        </PivotItem>
+        <PivotItem Header="Sports">
+            <ScrollViewer>
+                <StackPanel x:Name="stackpanel2" Background="#274f91" Padding="30">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image  Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage1Sports" />
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url1Sports" PointerPressed="Image_PointerPressed1Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage2Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url2Sports" PointerPressed="Image_PointerPressed2Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage3Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url3Sports" PointerPressed="Image_PointerPressed3Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="1" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage4Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url4Sports" PointerPressed="Image_PointerPressed4Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="2"   Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage5Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url5Sports" PointerPressed="Image_PointerPressed5Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="2" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage6Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url6Sports" PointerPressed="Image_PointerPressed6Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="3"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage7Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url7Sports" PointerPressed="Image_PointerPressed7Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                        <Grid Grid.Row="3" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image Stretch="Fill" Opacity="0.60">
+                                <Image.Source>
+                                    <BitmapImage x:Name="urlImage8Sports"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock x:Name="url8Sports" PointerPressed="Image_PointerPressed8Sports" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                        </Grid>
+                    </Grid>
 
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid   Background="Gray">
-                <Image  Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage1" />
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url1" PointerPressed="Image_PointerPressed1" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Column="2"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage2"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url2" PointerPressed="Image_PointerPressed2" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="1"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage3"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url3" PointerPressed="Image_PointerPressed3" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="1"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage4"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url4" PointerPressed="Image_PointerPressed4" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="2"   Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage5"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url5" PointerPressed="Image_PointerPressed5" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="1"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage6"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url6" PointerPressed="Image_PointerPressed6" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="3"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage7"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url7" PointerPressed="Image_PointerPressed7" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="1"  Background="Gray">
-                <Image Stretch="Fill" Opacity="0.60">
-                    <Image.Source>
-                        <BitmapImage x:Name="urlImage8"/>
-                    </Image.Source>
-                </Image>
-                <TextBlock x:Name="url8" PointerPressed="Image_PointerPressed8" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-            </Grid>
-        </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </PivotItem>
+        <PivotItem Header="Business">
+            <StackPanel x:Name="stackpanel3" Background="#274f91" Padding="30">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image  Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage1Business" />
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url1Business" PointerPressed="Image_PointerPressed1Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage2Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url2Business" PointerPressed="Image_PointerPressed2Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage3Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url3Business" PointerPressed="Image_PointerPressed3Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage4Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url4Business" PointerPressed="Image_PointerPressed4Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="2"   Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage5Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url5Business" PointerPressed="Image_PointerPressed5Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="2" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage6Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url6Business" PointerPressed="Image_PointerPressed6Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="3"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage7Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url7Business" PointerPressed="Image_PointerPressed7Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                    <Grid Grid.Row="3" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                        <Image Stretch="Fill" Opacity="0.60">
+                            <Image.Source>
+                                <BitmapImage x:Name="urlImage8Business"/>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock x:Name="url8Business" PointerPressed="Image_PointerPressed8Business" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                    </Grid>
+                </Grid>
 
 
-    </StackPanel>
-    </ScrollViewer>
+            </StackPanel>
+        </PivotItem>
+        <PivotItem Header="Search " >
+            <StackPanel Background="#274f91">
+                
+                <ScrollViewer>
+                    <StackPanel x:Name="stackpanel4" Background="#274f91" Padding="30">
+                        <ComboBox x:Name="CategoryCombo" Header="Category" DisplayMemberPath="Source" Foreground="white" >
+                            <ComboBoxItem Content="General"/>
+                            <ComboBoxItem Content="Sports"/>
+                            <ComboBoxItem Content="Business"/>
+                            <ComboBoxItem Content="Science"/>
+                            <ComboBoxItem Content="Technology"/>
+                            <ComboBoxItem Content="Entertainment"/>
+                            <ComboBoxItem Content="Health"/>
+                        </ComboBox>
+
+                        <TextBox x:Name="SearchKeyword" PlaceholderText="Enter Keywords Here" Width="200" HorizontalAlignment="Left" Foreground="White"></TextBox>
+                        <Button x:Name="Search" Click="Search_Click" Foreground="white">Search</Button>
+                        <TextBlock></TextBlock>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
+                                <Image  Stretch="Fill" Opacity="0.60">
+                                    <Image.Source>
+                                        <BitmapImage x:Name="urlImage1Search" />
+                                    </Image.Source>
+                                </Image>
+                                <TextBlock x:Name="url1Search" PointerPressed="Image_PointerPressed1Search" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            </Grid>
+                            <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                                <Image Stretch="Fill" Opacity="0.60">
+                                    <Image.Source>
+                                        <BitmapImage x:Name="urlImage2Search"/>
+                                    </Image.Source>
+                                </Image>
+                                <TextBlock x:Name="url2Search" PointerPressed="Image_PointerPressed2Search" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            </Grid>
+                            <Grid Grid.Row="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                                <Image Stretch="Fill" Opacity="0.60">
+                                    <Image.Source>
+                                        <BitmapImage x:Name="urlImage3Search"/>
+                                    </Image.Source>
+                                </Image>
+                                <TextBlock x:Name="url3Search" PointerPressed="Image_PointerPressed3Search" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                                <Image Stretch="Fill" Opacity="0.60">
+                                    <Image.Source>
+                                        <BitmapImage x:Name="urlImage4Search"/>
+                                    </Image.Source>
+                                </Image>
+                                <TextBlock x:Name="url4Search" PointerPressed="Image_PointerPressed4Search" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            </Grid>
+                        </Grid>
+
+
+                    </StackPanel>
+                </ScrollViewer>
+            </StackPanel>
+
+        </PivotItem>
+        <PivotItem Header="Settings" >
+            <StackPanel Background="#91bbff" Padding="30">
+                <ToggleSwitch x:Name="toggleSwitch2" Header="Light Theme" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
+              Toggled="toggleSwitch2_Toggled"  />
+                <ToggleSwitch x:Name="toggleSwitch" Header="News from Local Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
+              Toggled="ToggleSwitch_Toggled"  />
+                <TextBlock>News Grid does not share any user location</TextBlock>
+            </StackPanel>
+
+        </PivotItem>
+    </Pivot>
+
 </Page>
 
 <!--<Page

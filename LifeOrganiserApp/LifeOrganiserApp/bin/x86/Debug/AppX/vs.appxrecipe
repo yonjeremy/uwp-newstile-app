@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CR321</Machine>
+    <Machine>CR1015</Machine>
     <WindowsUser>g00330435</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -28,13 +28,13 @@
     <AppXManifest Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-06T15:00:05.427</Modified>
+      <Modified>2018-04-10T19:05:29.615</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.exe">
       <PackagePath>entrypoint\LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-06T15:00:03.492</Modified>
+      <Modified>2018-04-10T19:05:28.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00330435\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -514,7 +514,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.xr.xml">
       <PackagePath>LifeOrganiserApp.xr.xml</PackagePath>
-      <Modified>2018-04-06T14:32:27.380</Modified>
+      <Modified>2018-04-10T18:36:09.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -522,11 +522,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-04-06T15:00:04.635</Modified>
+      <Modified>2018-04-10T19:05:29.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\LifeOrganiserApp.exe">
       <PackagePath>LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-06T15:00:05.364</Modified>
+      <Modified>2018-04-10T19:05:29.552</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
