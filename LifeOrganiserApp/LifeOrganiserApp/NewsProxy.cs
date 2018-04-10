@@ -10,7 +10,6 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
-
 namespace LifeOrganiserApp
 {
     class NewsProxy
@@ -97,7 +96,7 @@ namespace LifeOrganiserApp
             response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=us" +
                      keywords +
                      "&category=" +
-                     category + "&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                     category + "&page_size=99&apiKey=96eea05140b246f5beb991ced70bfe8c");
 
             
 

@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>46E0F8B72CB6103CB5886FF98B56450EB652E681489FA7F8E47DF5EB3AB84046</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>812B0C730CBF50DE0B6EDEDC167D2C4B841B537C8D30E550EEC50EF8BC64C434</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7232ec74-5398-4499-b0a6-23f4d6b90b33_1.0.0.0_x86__s0fchq53h3dsa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7232ec74-5398-4499-b0a6-23f4d6b90b33_s0fchq53h3dsa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7232ec74-5398-4499-b0a6-23f4d6b90b33</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-10T19:05:29.615</Modified>
+      <Modified>2018-04-10T19:47:32.078</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.exe">
       <PackagePath>entrypoint\LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-10T19:05:28.039</Modified>
+      <Modified>2018-04-10T19:47:30.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00330435\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,9 +448,197 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Splash.png">
-      <PackagePath>Assets\Splash.png</PackagePath>
-      <Modified>2018-04-06T14:59:48.573</Modified>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.scale-100.png">
+      <PackagePath>Assets\AppList\AppList.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.scale-125.png">
+      <PackagePath>Assets\AppList\AppList.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.scale-150.png">
+      <PackagePath>Assets\AppList\AppList.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.scale-200.png">
+      <PackagePath>Assets\AppList\AppList.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.scale-400.png">
+      <PackagePath>Assets\AppList\AppList.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:17.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-16.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-16.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-16_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:11.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-20.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-20.png</PackagePath>
+      <Modified>2018-04-10T19:47:14.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-20_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-20_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-24.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-24.png</PackagePath>
+      <Modified>2018-04-10T19:47:14.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:11.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-256.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-256.png</PackagePath>
+      <Modified>2018-04-10T19:47:14.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-256_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-30.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-30.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-30_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-30_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-32.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-32.png</PackagePath>
+      <Modified>2018-04-10T19:47:14.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-32_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-32_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:11.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-36.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-36.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-36_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-36_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-40.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-40.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-40_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-40_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-48.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-48.png</PackagePath>
+      <Modified>2018-04-10T19:47:14.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-48_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:12.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-60.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-60.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-60_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-60_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-64.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-64.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-64_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-64_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-72.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-72.png</PackagePath>
+      <Modified>2018-04-10T19:47:15.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-72_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-72_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-80.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-80.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-80_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-80_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-96.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-96.png</PackagePath>
+      <Modified>2018-04-10T19:47:16.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList\AppList.targetsize-96_altform-unplated.png">
+      <PackagePath>Assets\AppList\AppList.targetsize-96_altform-unplated.png</PackagePath>
+      <Modified>2018-04-10T19:47:13.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large\Large310x310Logo.scale-100.png">
+      <PackagePath>Assets\Large\Large310x310Logo.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large\Large310x310Logo.scale-125.png">
+      <PackagePath>Assets\Large\Large310x310Logo.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large\Large310x310Logo.scale-150.png">
+      <PackagePath>Assets\Large\Large310x310Logo.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large\Large310x310Logo.scale-200.png">
+      <PackagePath>Assets\Large\Large310x310Logo.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large\Large310x310Logo.scale-400.png">
+      <PackagePath>Assets\Large\Large310x310Logo.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:11.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium\Medium150x150Logo.scale-100.png">
+      <PackagePath>Assets\Medium\Medium150x150Logo.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:46:48.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium\Medium150x150Logo.scale-125.png">
+      <PackagePath>Assets\Medium\Medium150x150Logo.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:46:48.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium\Medium150x150Logo.scale-150.png">
+      <PackagePath>Assets\Medium\Medium150x150Logo.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:09.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium\Medium150x150Logo.scale-200.png">
+      <PackagePath>Assets\Medium\Medium150x150Logo.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:09.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium\Medium150x150Logo.scale-400.png">
+      <PackagePath>Assets\Medium\Medium150x150Logo.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:09.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small\Small71x71Logo.scale-100.png">
+      <PackagePath>Assets\Small\Small71x71Logo.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:46:47.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small\Small71x71Logo.scale-125.png">
+      <PackagePath>Assets\Small\Small71x71Logo.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:46:47.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small\Small71x71Logo.scale-150.png">
+      <PackagePath>Assets\Small\Small71x71Logo.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:46:47.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small\Small71x71Logo.scale-200.png">
+      <PackagePath>Assets\Small\Small71x71Logo.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:46:47.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small\Small71x71Logo.scale-400.png">
+      <PackagePath>Assets\Small\Small71x71Logo.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:46:47.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Splash.scale-100.png">
       <PackagePath>Assets\Splash.scale-100.png</PackagePath>
@@ -468,9 +656,69 @@
       <PackagePath>Assets\Splash.scale-400.png</PackagePath>
       <Modified>2018-04-06T14:57:54.463</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:47:17.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:47:17.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:17.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:18.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:18.645</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <Modified>2018-04-06T14:47:16.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Store\StoreLogo.scale-100.png">
+      <PackagePath>Assets\Store\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:47:18.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Store\StoreLogo.scale-125.png">
+      <PackagePath>Assets\Store\StoreLogo.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:47:19.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Store\StoreLogo.scale-150.png">
+      <PackagePath>Assets\Store\StoreLogo.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:19.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Store\StoreLogo.scale-200.png">
+      <PackagePath>Assets\Store\StoreLogo.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:19.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Store\StoreLogo.scale-400.png">
+      <PackagePath>Assets\Store\StoreLogo.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:19.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide\Wide310x150Logo.scale-125.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide\Wide310x150Logo.scale-150.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide\Wide310x150Logo.scale-400.png</PackagePath>
+      <Modified>2018-04-10T19:47:10.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\noImage.png">
       <PackagePath>noImage.png</PackagePath>
@@ -522,11 +770,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-04-10T19:05:29.043</Modified>
+      <Modified>2018-04-10T19:47:31.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\LifeOrganiserApp.exe">
       <PackagePath>LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-10T19:05:29.552</Modified>
+      <Modified>2018-04-10T19:47:32.046</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

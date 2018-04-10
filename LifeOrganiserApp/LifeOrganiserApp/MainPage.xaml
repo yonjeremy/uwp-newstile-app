@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     
     mc:Ignorable="d">
-    <Pivot x:Name="rootPivot" Title="News Grid" Background="#274f91" Foreground="White" >
+    <Pivot x:Name="rootPivot" Title="News Grid" Background="black" Foreground="White" >
         <Pivot.TitleTemplate>
             <DataTemplate>
                 <Grid>
