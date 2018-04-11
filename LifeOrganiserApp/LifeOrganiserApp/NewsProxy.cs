@@ -88,15 +88,26 @@ namespace LifeOrganiserApp
 
             foreach (string s in splitted)
             {
-                keywords = keywords + "&q=" + s;
+                keywords = keywords + "q=" + s + "&";
             }
             Debug.WriteLine(keywords);
             var http = new HttpClient();
 
-            response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=us" +
+
+            if (category.Equals("General"))
+            {
+                response = await http.GetAsync("https://newsapi.org/v2/everything?" +
                      keywords +
-                     "&category=" +
-                     category + "&page_size=99&apiKey=96eea05140b246f5beb991ced70bfe8c");
+                     "page_size=99&apiKey=96eea05140b246f5beb991ced70bfe8c");
+            }
+            else
+            {
+                response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=us&" +
+                     keywords +
+                     "category=" +
+                     category + "&page_size=20&apiKey=96eea05140b246f5beb991ced70bfe8c");
+            }
+
 
             
 

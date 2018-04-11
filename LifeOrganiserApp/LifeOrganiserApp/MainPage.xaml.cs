@@ -9,6 +9,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.UI;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -40,8 +41,11 @@ namespace LifeOrganiserApp
             GetNews(false);
             GetSportsNews(false);
             GetBusinessNews(false);
-            GetSearchNews("General", "");
+            GetSearchNews("General", "news");
             InitialiseComboBoxes();
+
+            ApplicationView.PreferredLaunchViewSize = new Size(700, 800);
+            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 
             settings = ApplicationData.Current.RoamingSettings;
 
@@ -98,11 +102,19 @@ namespace LifeOrganiserApp
                 if (toggleSwitch2.IsOn == true)
                 {
                     rootPivot.Background = new SolidColorBrush(Colors.DarkGray);
-                    
+                    stackpanel.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel2.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel3.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel4.Background = new SolidColorBrush(Colors.DarkGray);
+
                 }
                 else
                 {
-                    rootPivot.Background = new SolidColorBrush(Colors.Black);
+                    rootPivot.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel2.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel3.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel4.Background = new SolidColorBrush(Colors.MidnightBlue);
                 }
                 if (settings.Values.Keys.Contains("lightTheme"))
                 {

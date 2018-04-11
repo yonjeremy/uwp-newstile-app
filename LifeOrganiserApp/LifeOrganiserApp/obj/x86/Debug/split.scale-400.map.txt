@@ -1,0 +1,14 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\split.scale-400.pri"			"resources.pri"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\Wide310x150Logo.scale-400.png"			"Assets\Wide310x150Logo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\StoreLogo.scale-400.png"			"Assets\StoreLogo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\SplashScreen.scale-400.png"			"Assets\SplashScreen.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\Small71x71Logo.scale-400.png"			"Assets\Small71x71Logo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\Small\Small71x71Logo.scale-400.png"			"Assets\Small\Small71x71Logo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\Medium150x150Logo.scale-400.png"			"Assets\Medium150x150Logo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\Large310x310Logo.scale-400.png"			"Assets\Large310x310Logo.scale-400.png"
+"\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\PackageLayout\Assets\AppList.scale-400.png"			"Assets\AppList.scale-400.png"
