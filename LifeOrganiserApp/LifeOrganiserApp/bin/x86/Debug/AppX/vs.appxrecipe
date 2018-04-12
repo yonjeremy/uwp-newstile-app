@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CR1014</Machine>
+    <Machine>CR321</Machine>
     <WindowsUser>g00330435</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -28,13 +28,13 @@
     <AppXManifest Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-11T19:07:13.283</Modified>
+      <Modified>2018-04-12T12:37:39.732</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.exe">
       <PackagePath>entrypoint\LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-11T19:07:10.506</Modified>
+      <Modified>2018-04-12T12:37:38.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\g00330435\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -450,47 +450,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\AppList.scale-400.png">
       <PackagePath>Assets\AppList.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:15:03.462</Modified>
+      <Modified>2018-04-11T18:15:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Large310x310Logo.scale-400.png">
       <PackagePath>Assets\Large310x310Logo.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:14:55.193</Modified>
+      <Modified>2018-04-11T18:14:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Medium150x150Logo.scale-400.png">
       <PackagePath>Assets\Medium150x150Logo.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:14:52.634</Modified>
+      <Modified>2018-04-11T18:14:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Small71x71Logo.scale-400.png">
       <PackagePath>Assets\Small71x71Logo.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:14:51.137</Modified>
+      <Modified>2018-04-11T18:14:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:15:05.334</Modified>
+      <Modified>2018-04-11T18:15:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:15:06.597</Modified>
+      <Modified>2018-04-11T18:15:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
-      <Modified>2018-04-11T18:14:53.025</Modified>
+      <Modified>2018-04-11T18:14:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\noImage.png">
       <PackagePath>noImage.png</PackagePath>
-      <Modified>2018-04-11T16:48:04.587</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\data.txt">
-      <PackagePath>data.txt</PackagePath>
-      <Modified>2018-04-05T14:25:10.936</Modified>
+      <Modified>2018-04-11T16:48:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-04-04T12:07:29.364</Modified>
+      <Modified>2018-04-04T12:07:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.xr.xml">
       <PackagePath>LifeOrganiserApp.xr.xml</PackagePath>
-      <Modified>2018-04-11T17:08:15.107</Modified>
+      <Modified>2018-04-12T12:28:26.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -498,11 +494,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-04-11T19:07:12.845</Modified>
+      <Modified>2018-04-12T12:28:27.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\LifeOrganiserApp.exe">
       <PackagePath>LifeOrganiserApp.exe</PackagePath>
-      <Modified>2018-04-11T19:07:13.220</Modified>
+      <Modified>2018-04-12T12:37:39.654</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\AppxManifest.xml
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\AppxManifest.xml
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Core\LifeOrganiserApp.exe
-\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\LifeOrganiserApp.build.appxrecipe
+\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\News Tile.build.appxrecipe
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\Microsoft.CSharp.dll
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\bin\x86\Debug\System.Core.dll
@@ -189,4 +189,3 @@
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\qualifiers.txt.intermediate
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 \\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\ProjectArchitectures.txt
-\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\obj\x86\Debug\LifeOrganiserApp.csprojResolveAssemblyReference.cache

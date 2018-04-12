@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <!-- Contains the main header and pivot grid for the news grid -->
-    <Pivot x:Name="rootPivot" Title="News Grid" Background="MidnightBlue" Foreground="White" >
+    <Pivot x:Name="rootPivot" Title="News Tile" Background="MidnightBlue" Foreground="White" >
         <!-- Set pivot title style -->
         <Pivot.TitleTemplate>
             <DataTemplate>
@@ -302,7 +302,7 @@
                 </ComboBox>
 
                 <!-- Input Box that allows users to key in keywords -->
-                <TextBox x:Name="SearchKeyword" PlaceholderText="Enter Keywords Here" Width="200" HorizontalAlignment="Left" Foreground="White"></TextBox>
+                    <TextBox x:Name="SearchKeyword" PlaceholderText="Enter Keywords Here (try 'trump' or 'bitcoin')" KeyDown="SearchKeyword_KeyDown" Width="400" HorizontalAlignment="Left" Foreground="White"></TextBox>
                 <Button x:Name="Search" Click="Search_Click" Foreground="white">Search</Button>
                 <TextBlock></TextBlock>
                 
@@ -355,7 +355,7 @@
 
         <!-- 5th pivot item, contains user settings and privacy policy -->
         <PivotItem Header="Settings" >
-            <StackPanel Background="#91bbff" Padding="30">
+            <StackPanel Background="#91bbff" Padding="60">
                 <!-- toggle switch for light/dark theme -->
                 <ToggleSwitch x:Name="toggleSwitch2" Header="Light Theme" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
               Toggled="toggleSwitch2_Toggled"  />
@@ -363,7 +363,10 @@
                 <ToggleSwitch x:Name="toggleSwitch" Header="News from Local Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsOn="False"
               Toggled="ToggleSwitch_Toggled"  />
                 <!-- privacy policy -->
-                <TextBlock>News Grid does not share any user location</TextBlock>
+                <TextBlock>News Tile doesn't store or share any Location or any personal user data.</TextBlock>
+                <TextBlock TextWrapping="WrapWholeWords">
+        <Span xml:space="preserve"><Run>Read the </Run><Hyperlink NavigateUri="https://sites.google.com/view/newsgridprivacypolicy/home">privacy policy for News Tile.</Hyperlink></Span>
+                </TextBlock>
             </StackPanel>
 
         </PivotItem>

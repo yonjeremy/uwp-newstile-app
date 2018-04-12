@@ -1,1 +1,1 @@
-\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\LifeOrganiserApp.csproj;x86
+\\gwscistud.gmadtree.gmit.ie\STUD\G00330435\Documents\Visual Studio 2015\Projects\LifeOrganiserApp\LifeOrganiserApp\News Tile.csproj;x86

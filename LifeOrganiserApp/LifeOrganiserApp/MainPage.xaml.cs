@@ -21,68 +21,84 @@ using Windows.UI.Xaml.Navigation;
 
 namespace LifeOrganiserApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    /// 
-
-
+    
+    // Code Main Page for the App
     public sealed partial class MainPage : Page
     {
+        // Instantiate news root object for all 4 pages
         public RootObject myNews;
         public RootObject myNews2;
         public RootObject myNews3;
         public RootObject myNews4;
+
+        // Store local storage
         ApplicationDataContainer settings;
         
         public MainPage()
         {
             this.InitializeComponent();
+
+            // initialise all 4 news pages on page load
             GetNews(false);
             GetSportsNews(false);
             GetBusinessNews(false);
             GetSearchNews("General", "news");
+
+            // Initialise the combo box
             InitialiseComboBoxes();
 
+            // set preferred window size
             ApplicationView.PreferredLaunchViewSize = new Size(700, 800);
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 
+            // set the roaming settings for the app
             settings = ApplicationData.Current.RoamingSettings;
 
+            // two roaming storage elements to be instantiated
             if (settings.Values.Keys.Contains("isLocal"))
             {
+                // stores islocal setting that enables user to get news from local sources only
                 toggleSwitch.IsOn = Convert.ToBoolean(settings.Values["isLocal"]);
             }
             if (settings.Values.Keys.Contains("lightTheme"))
             {
+                // stores lighttheme setting to enable user to switch between different themes
                 toggleSwitch2.IsOn = Convert.ToBoolean(settings.Values["lightTheme"]);
             }
         }
 
+        // initialise comboboxes
         private void InitialiseComboBoxes()
         {
+            // select first item in combobox on page load
             CategoryCombo.SelectedIndex = 0;
-          
-
         }
 
+        // function when the toggle switch for local sources is toggled
         private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
+            // create a new toggle switch item from sender object
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+
+            // if the toggle switch exists
             if (toggleSwitch != null)
             {
+                //if toggle switch is on, get news from local sources
                 if (toggleSwitch.IsOn == true)
                 {
                     GetNews(true);
                     GetSportsNews(true);
                     GetBusinessNews(true);
                 }
+                // if not, get news from all sources
                 else
                 {
                     GetNews(false);
                     GetSportsNews(false);
                     GetBusinessNews(false);
                 }
+
+                // create roaming storage "islocal" if it doesnt exist
                 if (settings.Values.Keys.Contains("isLocal"))
                 {
                     settings.Values["IsLocal"] = toggleSwitch.IsOn;
@@ -94,11 +110,16 @@ namespace LifeOrganiserApp
             }
         }
 
+        // function when the toggle switch for lighttheme is toggled
         private void toggleSwitch2_Toggled(object sender, RoutedEventArgs e)
         {
+            // create a new toggle switch item from sender object
             ToggleSwitch toggleSwitch2 = sender as ToggleSwitch;
+
+            // if the toggle switch exists
             if (toggleSwitch2 != null)
             {
+                // if toggle switch is on, change to light theme
                 if (toggleSwitch2.IsOn == true)
                 {
                     rootPivot.Background = new SolidColorBrush(Colors.DarkGray);
@@ -108,6 +129,7 @@ namespace LifeOrganiserApp
                     stackpanel4.Background = new SolidColorBrush(Colors.DarkGray);
 
                 }
+                // if not, change to dark theme
                 else
                 {
                     rootPivot.Background = new SolidColorBrush(Colors.MidnightBlue);
@@ -127,13 +149,38 @@ namespace LifeOrganiserApp
 
             }
         }
+        // when search button is clicked
+        private void Search_Click(object sender, RoutedEventArgs e)
+        {
+            // get combobox and keywords
+            ComboBoxItem typeItem = (ComboBoxItem)CategoryCombo.SelectedItem;
+            string c = typeItem.Content.ToString();
 
+            // call getsearchnews function
+            GetSearchNews(c, SearchKeyword.Text);
+        }
 
+        // when enter is clicked on keyword textbox
+        private void SearchKeyword_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            // if enter is pressed
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                // get combobox and keywords
+                ComboBoxItem typeItem = (ComboBoxItem)CategoryCombo.SelectedItem;
+                string c = typeItem.Content.ToString();
+                // call getsearchnews function
+                GetSearchNews(c, SearchKeyword.Text);
+            }
+        }
+
+        // Get Main top news function, gets boo lean to determine whether local news
         private async void GetNews(bool b)
         {
+            // calls newsproxy constructor function and returns news object
             myNews = await NewsProxy.GetNews(b,1);
 
-
+            // Gets url for all 8 tiles
             url1.Text = myNews.articles[0].title;
             url2.Text = myNews.articles[1].title;
             url3.Text = myNews.articles[2].title;
@@ -144,7 +191,7 @@ namespace LifeOrganiserApp
             url8.Text = myNews.articles[7].title;
 
 
-
+            // try and catch for images (catch if image doesnt exist in url and call default no image picture
             try
             {
                 Uri myUri1 = new Uri(myNews.articles[0].urlToImage);
@@ -233,6 +280,8 @@ namespace LifeOrganiserApp
 
         }
 
+
+        // Get Sports news function, gets boo lean to determine whether local news, same as Top news
         private async void GetSportsNews(bool b)
         {
             myNews2 = await NewsProxy.GetNews(b, 2);
@@ -330,6 +379,7 @@ namespace LifeOrganiserApp
             }
         }
 
+        // Get Business news function, gets boo lean to determine whether local news, same as Top news
         private async void GetBusinessNews(bool b)
         {
             myNews3 = await NewsProxy.GetNews(b, 3);
@@ -433,6 +483,7 @@ namespace LifeOrganiserApp
 
 
         }
+        // Get Search news function, takes in 2 strings, the category to be searched and the keyword
         private async void GetSearchNews(String category, String keywords)
         {
             myNews4 = await NewsProxy.SearchNews(category, keywords);
@@ -515,6 +566,9 @@ namespace LifeOrganiserApp
            
 
         }
+
+
+        // links for each news item if the tile is pressed
         private async void Image_PointerPressed1(object sender, PointerRoutedEventArgs e)
         {
             string link = @myNews.articles[0].url;
@@ -705,16 +759,6 @@ namespace LifeOrganiserApp
             var success = await Windows.System.Launcher.LaunchUriAsync(uri);
             }
             catch { }
-        }
-
-        private void Search_Click(object sender, RoutedEventArgs e)
-        {
-            
-            ComboBoxItem typeItem = (ComboBoxItem)CategoryCombo.SelectedItem;
-            string c = typeItem.Content.ToString();
-            
-            Debug.WriteLine(c);
-            GetSearchNews(c, SearchKeyword.Text);
         }
 
 
