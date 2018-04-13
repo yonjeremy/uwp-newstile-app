@@ -32,6 +32,58 @@ The next pivot item is a search menu. This will enable the user to search throug
 <a href="https://i.imgur.com/netoj1C.png"><img src="https://i.imgur.com/netoj1C.png" height="450" width="350" title="NewsTile"/></a><br>
 The final tab is the settings menu. The first toggle allows the user to switch between a light theme or a dark theme. The next setting allows the user to choose whether the news will be from local sources or not. All settings are stored in roaming storage, so that the user settings are stored on multiple devices.<br>
 
+## Design methods
+1. NewsApi
+This App uses NewsAPI, an API that allows the user to make http queries, and receives a json file that can be serialised and have its data parsed into different root objects. This api provides great functionality as it allows the user to make different queries based on categories, location, language, keywords etc.
+```
+response = await http.GetAsync("https://newsapi.org/v2/top-headlines?country=" + GetLocation() + &apiKey=96eea05140b246f5beb991ced70bfe8c");
+```
+
+2. Parsing Json
+As mentioned above, the json file that is received will have to be parsed as a json file. The news tile app handles all the parsing of the json, by serialising it into a type news root object.
+```
+var result = await response.Content.ReadAsStringAsync();
+var serializer = new DataContractJsonSerializer(typeof(RootObject));
+var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+var data = (RootObject)serializer.ReadObject(ms);
+```
+
+
+3. Roaming settings storage
+The app contains a few toggle switches that store the user settings. These settings can be passed on from different devices as long as the user is logged into a windows account. 
+```
+settings = ApplicationData.Current.RoamingSettings;
+```
+
+4. User location
+The app allows the user to get news from local sources. This is done by getting the user location by calling the geographicregion() function, that returns a two letter country code variable. The two letter country code is then inserted into the newsapi query.
+```
+var geographicRegion = new Windows.Globalization.GeographicRegion();
+var code = geographicRegion.CodeTwoLetter;
+```
+            
+
+5. Pivot Items
+The easiest way to display different pages in a UWP app is to use the pivot item tag. This allows the user to scroll through different pages with the mouse or touchscreen.
+
+## App link and certification
+
+<a href="https://i.imgur.com/8OFZ63S.png"><img src=https://i.imgur.com/8OFZ63S.png" height="300" width="400" title="Certification"/></a><br>
+As of today (13/04/2018) the app has been sent to the app store to be certified. 
+
+## App link
+(to be filled in here after certification)
+
+## Publisher name
+Yonjeremy
+
+## Authors
+Jeremy Yon- All source code and assets
+
+## Credits
+NewsApi for your amazing api functionality
+
+
 
 
 
