@@ -7,7 +7,7 @@ This project was done by Jeremy Yon of Galway-Mayo Institute technology, for the
 ## Getting started
 1. Git clone this repository to local machine
 ```
-git clone https://github.com/yonjeremy/uwp-life-organiser-app
+git clone https://github.com/yonjeremy/uwp-newstile-app
 ```
 2. Open up the cloned repository, click on LifeOrganiserApp.sln file.
 3. Pick visual studio 2015.
@@ -68,7 +68,7 @@ The easiest way to display different pages in a UWP app is to use the pivot item
 
 ## App link and certification
 
-<a href="https://i.imgur.com/8OFZ63S.png"><img src="https://i.imgur.com/8OFZ63S.png" height="300" width="550" title="Certification"/></a><br>
+<a href="https://i.imgur.com/8OFZ63S.png"><img src="https://i.imgur.com/8OFZ63S.png" height="300" width="800" title="Certification"/></a><br>
 As of today (13/04/2018) the app has been sent to the app store to be certified. 
 
 ## App link
