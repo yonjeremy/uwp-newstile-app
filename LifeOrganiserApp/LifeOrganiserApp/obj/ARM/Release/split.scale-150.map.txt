@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-150"
+"ResourceDimensions"		"scale-150"
+
+[Files]
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\split.scale-150.pri"			"resources.pri"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-150.png"			"Assets\Wide310x150Logo.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\StoreLogo.scale-150.png"			"Assets\StoreLogo.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-150.png"			"Assets\SplashScreen.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\Small71x71Logo.scale-150.png"			"Assets\Small71x71Logo.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\Medium150x150Logo.scale-150.png"			"Assets\Medium150x150Logo.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\Large310x310Logo.scale-150.png"			"Assets\Large310x310Logo.scale-150.png"
+"C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\obj\ARM\Release\PackageLayout\Assets\AppList.scale-150.png"			"Assets\AppList.scale-150.png"

@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-  <UapDefaultAssetScale>400</UapDefaultAssetScale>
-    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <UapDefaultAssetScale>400</UapDefaultAssetScale>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <Source>C:\Users\User\Downloads\icons8-news-400.png</Source>
+    <SmallTileSource>C:\Users\User\Downloads\icons8-news-400.png</SmallTileSource>
+    <MediumTileSource>C:\Users\User\Downloads\icons8-news-400.png</MediumTileSource>
+    <WideTileSource>C:\Users\User\Downloads\icons8-news-400.png</WideTileSource>
+    <LargeTileSource>C:\Users\User\Downloads\icons8-news-400.png</LargeTileSource>
+    <AppIconSource>C:\Users\User\Downloads\icons8-news-400.png</AppIconSource>
+    <SplashScreenSource>C:\Users\User\Downloads\icons8-news-400.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\User\Downloads\icons8-news-400.png</PackageLogoSource>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
   </PropertyGroup>
 </Project>

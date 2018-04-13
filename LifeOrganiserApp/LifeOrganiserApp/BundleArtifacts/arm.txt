@@ -1,0 +1,6 @@
+MainPackage=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\bin\ARM\Release\News Tile_1.1.0.0_ARM.appx
+SymbolPackage=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\AppPackages\News Tile_1.1.0.0_Test\News Tile_1.1.0.0_ARM.appxsym
+ResourcePack=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\bin\ARM\Release\News Tile_1.1.0.0_scale-100.appx
+ResourcePack=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\bin\ARM\Release\News Tile_1.1.0.0_scale-125.appx
+ResourcePack=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\bin\ARM\Release\News Tile_1.1.0.0_scale-150.appx
+ResourcePack=C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\bin\ARM\Release\News Tile_1.1.0.0_scale-200.appx

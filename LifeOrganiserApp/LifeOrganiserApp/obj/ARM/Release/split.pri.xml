@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="2969Yonjeremy.NewsTile" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>400</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://2969Yonjeremy.NewsTile/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LifeOrganiserApp.xr.xml" uri="ms-resource://2969Yonjeremy.NewsTile/Files/LifeOrganiserApp.xr.xml">
+				<Candidate type="Path">
+					<Value>LifeOrganiserApp.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://2969Yonjeremy.NewsTile/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="noImage.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/noImage.png">
+				<Candidate type="Path">
+					<Value>noImage.png</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="AppList.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/AppList.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\AppList.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\AppList.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\AppList.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\AppList.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\AppList.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\AppList.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\AppList.altform-unplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\AppList.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\AppList.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\AppList.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\AppList.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Large310x310Logo.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/Large310x310Logo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\Large310x310Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Medium150x150Logo.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/Medium150x150Logo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\Medium150x150Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Small71x71Logo.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/Small71x71Logo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\Small71x71Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://2969Yonjeremy.NewsTile/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://2969Yonjeremy.NewsTile/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

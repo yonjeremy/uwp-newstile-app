@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\uwp-life-organiser-app\LifeOrganiserApp\LifeOrganiserApp\News Tile.csproj;x64
