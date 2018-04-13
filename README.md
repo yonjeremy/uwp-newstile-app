@@ -68,7 +68,7 @@ The easiest way to display different pages in a UWP app is to use the pivot item
 
 ## App link and certification
 
-<a href="https://i.imgur.com/8OFZ63S.png"><img src=https://i.imgur.com/8OFZ63S.png" height="300" width="400" title="Certification"/></a><br>
+<a href="https://i.imgur.com/8OFZ63S.png"><img src="https://i.imgur.com/8OFZ63S.png" height="300" width="400" title="Certification"/></a><br>
 As of today (13/04/2018) the app has been sent to the app store to be certified. 
 
 ## App link
